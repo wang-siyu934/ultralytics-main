@@ -1,4 +1,7 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 from ultralytics import YOLO
-yolo = YOLO("./yolov8n.pt",task="detect")
-result = yolo(source="./ultralytics/assets/bus.jpg",save=True)
-#result = yolo(source=0)
+
+yolo = YOLO("./yolov8n.pt", task="detect")
+result = yolo(source="./ultralytics/assets/bus.jpg", save=True)
+# result = yolo(source=0)
