@@ -1,11 +1,12 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 path: E:/Python/yolov8/ultralytics-main/widerface
 
 train: E:/Python/yolov8/ultralytics-main/widerface/train/images
 val: E:/Python/yolov8/ultralytics-main/widerface/val/images
 test: E:/Python/yolov8/ultralytics-main/widerface/test/images
 
-
-name: 
+name:
   0: face
 
 nc: 1
